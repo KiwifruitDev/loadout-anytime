@@ -1,0 +1,4 @@
+*.smx
+*.bat
+*.zip
+!compile.bat

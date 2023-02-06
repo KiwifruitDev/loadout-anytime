@@ -102,6 +102,22 @@ In order to modify the configuration, you will need to recompile the plugin your
 
 There may be a configuration file in the future, but for now, the plugin must be recompiled.
 
+## Quick Switch CFG
+
+Write this CFG to your client's `autoexec.cfg` file to bind quick switch keys to your numpad.
+
+```cfg
+bind kp_end "sm_loadout 1"
+bind kp_downarrow "sm_loadout 2
+bind kp_pgdn "sm_loadout 3"
+bind kp_leftarrow "sm_loadout 4"
+bind kp_5 "sm_loadout 5"
+bind kp_rightarrow "sm_loadout 6"
+bind kp_home "sm_loadout 7"
+bind kp_uparrow "sm_loadout 8"
+bind kp_pgup "sm_loadout 9"
+```
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

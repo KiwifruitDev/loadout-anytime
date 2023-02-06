@@ -18,6 +18,9 @@ This is a "what if" scenario plugin. It's not meant to be taken seriously, but i
 - Ammo is not saved between weapons. Instead, every weapon uses the same reserve ammo pool. This may be changed in the future.
 - Rechargable weapons (e.g. Pomson, Cow Mangler) may not save their recharge amount when switching to a different weapon.
 - Holding down attack buttons for throwable weapons (e.g. Jarate) will allow you to immediately regenerate the weapon by switching to a different weapon and back.
+- Switching to a wearable weapon (e.g. the Razorback) will not allow you to switch out of it unless you use the menu.
+- In some cases, switching to wearables weapons will cause them to become stuck on your back and not be able to be removed.
+- Throwable weapons (e.g. Jarate) may not regenerate at all at times.
 
 ## Progress
 
